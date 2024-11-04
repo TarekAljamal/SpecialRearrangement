@@ -12,6 +12,5 @@ def special_rearrangement(numbers):
         if((numbers[i] % 2) != 0):
             rearranged_list.append(numbers[i])    
 
-    numbers = rearranged_list
-    print(numbers)        
+    numbers = rearranged_list        
     return numbers
